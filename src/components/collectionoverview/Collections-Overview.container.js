@@ -8,7 +8,7 @@ import { SelectIsCollectionFetching } from '../../redux/shop/Shop.selector';
 import WithSpinner from '../With-spinner/With-spinner'
 
 import CollectionOverview from './Collection-Overview'
-'
+
 
 
 
@@ -22,8 +22,6 @@ const CollectionOverviewContainer = compose(
    WithSpinner
    )(CollectionOverview);
 
+export default CollectionOverviewContainer;
 
- export default CollectionOverviewContainer;
 
-
-import { createSelector } from 'reselect
